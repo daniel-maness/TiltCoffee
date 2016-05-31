@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA2F21481CFE11D20009FDD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F21471CFE11D20009FDD0 /* AppDelegate.swift */; };
+		AA2F214A1CFE11D20009FDD0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F21491CFE11D20009FDD0 /* RootViewController.swift */; };
+		AA2F214C1CFE11D20009FDD0 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F214B1CFE11D20009FDD0 /* DataViewController.swift */; };
+		AA2F214E1CFE11D20009FDD0 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F214D1CFE11D20009FDD0 /* ModelController.swift */; };
+		AA2F21511CFE11D20009FDD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F214F1CFE11D20009FDD0 /* Main.storyboard */; };
+		AA2F21531CFE11D20009FDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2F21521CFE11D20009FDD0 /* Assets.xcassets */; };
+		AA2F21561CFE11D20009FDD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2F21541CFE11D20009FDD0 /* LaunchScreen.storyboard */; };
+		AA2F21611CFE11D20009FDD0 /* TiltCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F21601CFE11D20009FDD0 /* TiltCoffeeTests.swift */; };
+		AA2F216C1CFE11D20009FDD0 /* TiltCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F216B1CFE11D20009FDD0 /* TiltCoffeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA2F215D1CFE11D20009FDD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2F213C1CFE11D20009FDD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2F21431CFE11D20009FDD0;
+			remoteInfo = TiltCoffee;
+		};
+		AA2F21681CFE11D20009FDD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA2F213C1CFE11D20009FDD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2F21431CFE11D20009FDD0;
+			remoteInfo = TiltCoffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA2F21441CFE11D20009FDD0 /* TiltCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiltCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F21471CFE11D20009FDD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA2F21491CFE11D20009FDD0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		AA2F214B1CFE11D20009FDD0 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		AA2F214D1CFE11D20009FDD0 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		AA2F21501CFE11D20009FDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA2F21521CFE11D20009FDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2F21551CFE11D20009FDD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA2F21571CFE11D20009FDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F215C1CFE11D20009FDD0 /* TiltCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiltCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F21601CFE11D20009FDD0 /* TiltCoffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltCoffeeTests.swift; sourceTree = "<group>"; };
+		AA2F21621CFE11D20009FDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA2F21671CFE11D20009FDD0 /* TiltCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiltCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2F216B1CFE11D20009FDD0 /* TiltCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltCoffeeUITests.swift; sourceTree = "<group>"; };
+		AA2F216D1CFE11D20009FDD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2F21411CFE11D20009FDD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F21591CFE11D20009FDD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F21641CFE11D20009FDD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2F213B1CFE11D20009FDD0 = {
+			isa = PBXGroup;
+			children = (
+				AA2F21461CFE11D20009FDD0 /* TiltCoffee */,
+				AA2F215F1CFE11D20009FDD0 /* TiltCoffeeTests */,
+				AA2F216A1CFE11D20009FDD0 /* TiltCoffeeUITests */,
+				AA2F21451CFE11D20009FDD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2F21451CFE11D20009FDD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F21441CFE11D20009FDD0 /* TiltCoffee.app */,
+				AA2F215C1CFE11D20009FDD0 /* TiltCoffeeTests.xctest */,
+				AA2F21671CFE11D20009FDD0 /* TiltCoffeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2F21461CFE11D20009FDD0 /* TiltCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F21471CFE11D20009FDD0 /* AppDelegate.swift */,
+				AA2F21491CFE11D20009FDD0 /* RootViewController.swift */,
+				AA2F214B1CFE11D20009FDD0 /* DataViewController.swift */,
+				AA2F214D1CFE11D20009FDD0 /* ModelController.swift */,
+				AA2F214F1CFE11D20009FDD0 /* Main.storyboard */,
+				AA2F21521CFE11D20009FDD0 /* Assets.xcassets */,
+				AA2F21541CFE11D20009FDD0 /* LaunchScreen.storyboard */,
+				AA2F21571CFE11D20009FDD0 /* Info.plist */,
+			);
+			path = TiltCoffee;
+			sourceTree = "<group>";
+		};
+		AA2F215F1CFE11D20009FDD0 /* TiltCoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F21601CFE11D20009FDD0 /* TiltCoffeeTests.swift */,
+				AA2F21621CFE11D20009FDD0 /* Info.plist */,
+			);
+			path = TiltCoffeeTests;
+			sourceTree = "<group>";
+		};
+		AA2F216A1CFE11D20009FDD0 /* TiltCoffeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F216B1CFE11D20009FDD0 /* TiltCoffeeUITests.swift */,
+				AA2F216D1CFE11D20009FDD0 /* Info.plist */,
+			);
+			path = TiltCoffeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2F21431CFE11D20009FDD0 /* TiltCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F21701CFE11D20009FDD0 /* Build configuration list for PBXNativeTarget "TiltCoffee" */;
+			buildPhases = (
+				AA2F21401CFE11D20009FDD0 /* Sources */,
+				AA2F21411CFE11D20009FDD0 /* Frameworks */,
+				AA2F21421CFE11D20009FDD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiltCoffee;
+			productName = TiltCoffee;
+			productReference = AA2F21441CFE11D20009FDD0 /* TiltCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA2F215B1CFE11D20009FDD0 /* TiltCoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F21731CFE11D20009FDD0 /* Build configuration list for PBXNativeTarget "TiltCoffeeTests" */;
+			buildPhases = (
+				AA2F21581CFE11D20009FDD0 /* Sources */,
+				AA2F21591CFE11D20009FDD0 /* Frameworks */,
+				AA2F215A1CFE11D20009FDD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2F215E1CFE11D20009FDD0 /* PBXTargetDependency */,
+			);
+			name = TiltCoffeeTests;
+			productName = TiltCoffeeTests;
+			productReference = AA2F215C1CFE11D20009FDD0 /* TiltCoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA2F21661CFE11D20009FDD0 /* TiltCoffeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2F21761CFE11D20009FDD0 /* Build configuration list for PBXNativeTarget "TiltCoffeeUITests" */;
+			buildPhases = (
+				AA2F21631CFE11D20009FDD0 /* Sources */,
+				AA2F21641CFE11D20009FDD0 /* Frameworks */,
+				AA2F21651CFE11D20009FDD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2F21691CFE11D20009FDD0 /* PBXTargetDependency */,
+			);
+			name = TiltCoffeeUITests;
+			productName = TiltCoffeeUITests;
+			productReference = AA2F21671CFE11D20009FDD0 /* TiltCoffeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2F213C1CFE11D20009FDD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Devious Logic";
+				TargetAttributes = {
+					AA2F21431CFE11D20009FDD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AA2F215B1CFE11D20009FDD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA2F21431CFE11D20009FDD0;
+					};
+					AA2F21661CFE11D20009FDD0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA2F21431CFE11D20009FDD0;
+					};
+				};
+			};
+			buildConfigurationList = AA2F213F1CFE11D20009FDD0 /* Build configuration list for PBXProject "TiltCoffee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA2F213B1CFE11D20009FDD0;
+			productRefGroup = AA2F21451CFE11D20009FDD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2F21431CFE11D20009FDD0 /* TiltCoffee */,
+				AA2F215B1CFE11D20009FDD0 /* TiltCoffeeTests */,
+				AA2F21661CFE11D20009FDD0 /* TiltCoffeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2F21421CFE11D20009FDD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F21561CFE11D20009FDD0 /* LaunchScreen.storyboard in Resources */,
+				AA2F21531CFE11D20009FDD0 /* Assets.xcassets in Resources */,
+				AA2F21511CFE11D20009FDD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F215A1CFE11D20009FDD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F21651CFE11D20009FDD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2F21401CFE11D20009FDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F214A1CFE11D20009FDD0 /* RootViewController.swift in Sources */,
+				AA2F214E1CFE11D20009FDD0 /* ModelController.swift in Sources */,
+				AA2F214C1CFE11D20009FDD0 /* DataViewController.swift in Sources */,
+				AA2F21481CFE11D20009FDD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F21581CFE11D20009FDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F21611CFE11D20009FDD0 /* TiltCoffeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2F21631CFE11D20009FDD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2F216C1CFE11D20009FDD0 /* TiltCoffeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA2F215E1CFE11D20009FDD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2F21431CFE11D20009FDD0 /* TiltCoffee */;
+			targetProxy = AA2F215D1CFE11D20009FDD0 /* PBXContainerItemProxy */;
+		};
+		AA2F21691CFE11D20009FDD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA2F21431CFE11D20009FDD0 /* TiltCoffee */;
+			targetProxy = AA2F21681CFE11D20009FDD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA2F214F1CFE11D20009FDD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2F21501CFE11D20009FDD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA2F21541CFE11D20009FDD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2F21551CFE11D20009FDD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA2F216E1CFE11D20009FDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2F216F1CFE11D20009FDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA2F21711CFE11D20009FDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiltCoffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deviouslogic.TiltCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA2F21721CFE11D20009FDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TiltCoffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deviouslogic.TiltCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA2F21741CFE11D20009FDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiltCoffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deviouslogic.TiltCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltCoffee.app/TiltCoffee";
+			};
+			name = Debug;
+		};
+		AA2F21751CFE11D20009FDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TiltCoffeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deviouslogic.TiltCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TiltCoffee.app/TiltCoffee";
+			};
+			name = Release;
+		};
+		AA2F21771CFE11D20009FDD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiltCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deviouslogic.TiltCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TiltCoffee;
+			};
+			name = Debug;
+		};
+		AA2F21781CFE11D20009FDD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TiltCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deviouslogic.TiltCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TiltCoffee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2F213F1CFE11D20009FDD0 /* Build configuration list for PBXProject "TiltCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F216E1CFE11D20009FDD0 /* Debug */,
+				AA2F216F1CFE11D20009FDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2F21701CFE11D20009FDD0 /* Build configuration list for PBXNativeTarget "TiltCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F21711CFE11D20009FDD0 /* Debug */,
+				AA2F21721CFE11D20009FDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA2F21731CFE11D20009FDD0 /* Build configuration list for PBXNativeTarget "TiltCoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F21741CFE11D20009FDD0 /* Debug */,
+				AA2F21751CFE11D20009FDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA2F21761CFE11D20009FDD0 /* Build configuration list for PBXNativeTarget "TiltCoffeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2F21771CFE11D20009FDD0 /* Debug */,
+				AA2F21781CFE11D20009FDD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2F213C1CFE11D20009FDD0 /* Project object */;
+}
